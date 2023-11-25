@@ -28,4 +28,4 @@ jobs:
       with:
         context: .
         push: true
-        tags: yourdockerhubusername/yourappname:latest
+        tags: ${{ secrets.DOCKERHUB_USERNAME }}/a4-python-app:latest
